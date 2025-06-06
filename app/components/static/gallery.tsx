@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import Image from "next/image";
 
 // Import fallback image for when gallery images aren't loaded
-import fallbackImage from '@/public/images/gallery/gallery-1.png';
+import fallbackImage from '@/public/next.svg';
 
 // Define the gallery image type
 interface GalleryImage {
